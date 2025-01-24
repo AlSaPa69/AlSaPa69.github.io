@@ -1,9 +1,94 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Menú principal</title>
+        <style>
+            body {
+                margin: 0px;
+                background-color: rgb(82, 82, 82);
+            }
+            body h1, h2, h3, h4, p {
+                color: white;
+            }
+            body a {
+                color: rgb(110, 144, 255)
+            }
+            h1 {
+                font-size: 2.5em;
+            }
+            h2 {
+                font-size: 2em;
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-size: 1.5em;
+                margin-bottom: 15px;
+            }
+            p {
+                font-size: 1em;
+            }
+            div.sidebar {
+                float: left;
+                position:fixed;
+                width: 220px;
+                height: 100%;
+                background-color: rgb(120, 120, 214);
+            }
+            div.page-container {
+                margin-left: 220px;
+            }
+            div.page-container :first-child {
+                margin-top: 0px;
+            }
+            div.page-container h1 {
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 20px;
+                margin-bottom: 0px;
+            }
+            div.sidebar h1 {
+                margin: 5px;
+                font-size: 22px;
+                background-color: rgb(18, 18, 140);
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            div.sidebar h2 {
+                color: grey;
+                margin: 7px;
+                font-size: 18px;
+                background-color: rgb(62, 62, 214);
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            div.content {
+                margin-left: 20px
+            }
+        </style>
+        <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsEE-EzyW75PTrg-4iyVdYZCFAnSRpUOdDbQ&s">
+        <link rel="stylesheet" href="">
     </head>
     <body>
-        <h1>HelloWorld!</h1>
+        <div class="sidebar">
+            <h1>Menú principal</h1>
+            <a href="https://mismuertos.com"><h2>Inicio</h2></a>
+        </div>
+        <div class="page-container">
+            <h1>Bienvenido a la web</h1>
+            <hr>
+            <div class="content">
+                <h2>Qué es esto?</h2>
+                <p>
+                    Lo que estás presenciando es una prueba de <strong>HTML y CSS</strong>. Gracias a estos lenguajes digitales puedes observar la web con <em>estilos</em> y correctamente organizada.<br>
+                    Te recomiendo encarecidamente informarte sobre HTML y CSS mediante la documentación de <a href="https://developer.mozilla.org/" target="_blank">MDN o Mozilla</a>
+                </p>
+            </div>
+        </div>
     </body>
 </html>
