@@ -1,0 +1,40 @@
+div.sidebar {
+    float: left;
+    position:fixed;
+    width: 220px;
+    height: 100%;
+    background-color: rgb(120, 120, 214);
+}
+div.page-container {
+    margin-left: 220px;
+}
+div.page-container :first-child {
+    margin-top: 0px;
+}
+div.page-container h1 {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+div.sidebar h1 {
+    margin: 5px;
+    font-size: 22px;
+    background-color: rgb(18, 18, 140);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.sidebar h2 {
+    color: grey;
+    margin: 7px;
+    font-size: 18px;
+    background-color: rgb(62, 62, 214);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
