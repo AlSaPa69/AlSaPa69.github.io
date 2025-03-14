@@ -40501,7 +40501,7 @@
 			(this.g_aUD = 0),
 				this.g_aUE.g_lC(),
 				0 === this.g_aUy
-					? ((this.g_aUD = 1), 0 === this.g_aUz && (this.g_aUD = 2))
+					? ((this.g_aUD = 3), 0 === this.g_aUz && (this.g_aUD = 2))
 					: (this.g_b_.g_CU().g_zm(0), this.g_Be.g_EV());
 		}
 		g_QF(g) {
@@ -40747,7 +40747,7 @@
 				s = Math.cos(g) * this.g_aUX,
 				a = Math.sin(g) * this.g_aUX,
 				d = Math.floor(n / this.g_aUX);
-			for (let g = 1; g <= d; g = g + 200) // Vamos a ver que puedo hacer aquí
+			for (let g = 1; g <= d; ++g)
 				if (
 					(i.g_abq(e + s * g, r + a * g),
 					i.g_En(),
