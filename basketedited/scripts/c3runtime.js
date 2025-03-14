@@ -40747,7 +40747,7 @@
 				s = Math.cos(g) * this.g_aUX,
 				a = Math.sin(g) * this.g_aUX,
 				d = Math.floor(n / this.g_aUX);
-			for (let g = 1; g <= d; ++g)
+			for (let g = 1; g <= d; g = g + 200) // Vamos a ver que puedo hacer aquí
 				if (
 					(i.g_abq(e + s * g, r + a * g),
 					i.g_En(),
@@ -41871,7 +41871,7 @@
 		() => 85,
 		() => 113,
 		() => 204,
-		() => 'botsito',
+		() => 'CPU',
 		() => 'nojump',
 		(g) => {
 			const _ = g.g_$K(0).g_$c();
