@@ -40501,7 +40501,7 @@
 			(this.g_aUD = 0),
 				this.g_aUE.g_lC(),
 				0 === this.g_aUy
-					? ((this.g_aUD = 3), 0 === this.g_aUz && (this.g_aUD = 2))
+					? ((this.g_aUD = 1), 0 === this.g_aUz && (this.g_aUD = 2))
 					: (this.g_b_.g_CU().g_zm(0), this.g_Be.g_EV());
 		}
 		g_QF(g) {
@@ -42171,6 +42171,7 @@
 		() => 'Game',
 		() => 'heavy',
 		(g) => {
+			console.log(g.POINTS);
 			const _ = g.g_$K(0).g_$A(),
 				e = g.g_$K(1).g_$c(),
 				a = g.g_$K(2).g_$A();
