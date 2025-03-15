@@ -42171,11 +42171,10 @@
 		() => 'Game',
 		() => 'heavy',
 		(g) => {
-			console.log(g.POINTS);
 			const _ = g.g_$K(0).g_$A(),
 				e = g.g_$K(1).g_$c(),
 				a = g.g_$K(2).g_$A();
-			return () => _.g_Pc() + ((0 < e(a.g_Pc()) ? 1 : 0) ? ' + ' : '') + 'LIGHT BALL';
+			return () => _.g_Pc() + ((0 < e(a.g_Pc()) ? 1 : 0) ? ' + ' : '') + JSON.parse(g) + 'LIGHT';
 		},
 		() => 'kames',
 		(g) => {
