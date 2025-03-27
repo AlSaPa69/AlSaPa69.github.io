@@ -42250,7 +42250,7 @@
 			return () => _(e.g_$j(), 0, 10 * a());
 		},
 		() => -3,
-		() => 'http://www.twoplayergames.org/?utm_source=Html5Game&utm_medium=BasketRandom',
+		() => 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 		() => 'NewWindow',
 		() => 70,
 		() => 205,
