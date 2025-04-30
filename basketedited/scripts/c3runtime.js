@@ -42166,7 +42166,7 @@
 			const _ = g.g_$K(0).g_$A(),
 				e = g.g_$K(1).g_$c(),
 				a = g.g_$K(2).g_$A();
-			return () => _.g_Pc() + ((0 < e(a.g_Pc()) ? 1 : 0) ? ' + ' : '') + 'HEAVY BALL';
+			return () => _.g_Pc() + ((0 < e(a.g_Pc()) ? 1 : 0) ? ' + ' : '') + 'Amine';
 		},
 		() => 'Game',
 		() => 'heavy',
