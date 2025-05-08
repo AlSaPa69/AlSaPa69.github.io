@@ -2896,7 +2896,7 @@
 				["images/buildingtile2-sheet0.gif", 2012, 0, 0, 0, 290, 60],
 				null,
 				[],
-				false,
+				true,
 				false,
 				873220186766453,
 				[],
