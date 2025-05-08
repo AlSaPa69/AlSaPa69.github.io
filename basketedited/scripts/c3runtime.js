@@ -5909,7 +5909,7 @@
 	(g_aO.g_cv = function (g, _, e) {
 		return (
 			'number' != typeof e && (e = 1),
-			(_ = _ || 'image/png'),
+			(_ = _ || 'image/gif'),
 			(e = g_aO.g_ep(e, 0, 1)),
 			g.toBlob
 				? new Promise((a) => g.toBlob(a, _, e))
@@ -5921,7 +5921,7 @@
 	(g_aO.g_gm = function (g, _, e) {
 		return (
 			'number' != typeof e && (e = 1),
-			(_ = _ || 'image/png'),
+			(_ = _ || 'image/gif'),
 			(e = g_aO.g_ep(e, 0, 1)),
 			g_aO.g_gn(g.toDataURL(_, e))
 		);
